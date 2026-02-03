@@ -13,4 +13,10 @@ for (let i = 1; i <= 100; i++) {
         console.log('Fizz');
     }
 
+    //identifico i multipli solo di 5
+    // SE il numero è multiplo di 5 viene sostituito dallla parola "Buzz"
+    else if (i % 5 == 0) {
+        console.log('Buzz');
+    }
+
 }
